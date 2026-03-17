@@ -11,7 +11,7 @@ const Work = ({ isDesktop }) => {
   const tabItems = useMemo(
     () => [
       {
-        title: "CSE Pathshala",
+        title: "LPU",
         value: "cse_pathshala",
         content: (
           <StickyScroll
@@ -64,14 +64,11 @@ const Work = ({ isDesktop }) => {
       <div className="section-container py-16 flex flex-col justify-center">
         <div className="flex flex-col work-wrapper">
           <div className="flex flex-col">
-            <p className="uppercase tracking-widest text-gray-light-1 staggered-reveal">
-              TRAINING
-            </p>
             <h1 className="text-6xl mt-2 font-medium text-gradient w-fit staggered-reveal">
-              Experience
+              Training
             </h1>
             <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-              A quick recap of my training and capstone projects.{" "}
+              A quick recap of my training.{" "}
             </h2>
           </div>
           <Tabs tabItems={tabItems} />

@@ -97,6 +97,14 @@ export const SKILLS = {
   ],
   databases: ["mysql", "postgresql", "mongodb"],
   other: ["git", "github"],
+  softSkills: [
+    "Communication",
+    "Teamwork",
+    "Problem Solving",
+    "Leadership",
+    "Time Management",
+    "Adaptability",
+  ],
 };
 
 export const PROJECTS = [
@@ -105,7 +113,7 @@ export const PROJECTS = [
     imageKey: "coursehub",
     description: "Get hired through DMs not resumes 🤝",
     gradient: ["#FF69B4", "#FFB6C1"], // hot pink to light pink (cherry blossom inspired)
-    url: "https://course-hub-frontend-six.vercel.app/",
+    url: "https://github.com/pranavmehta95",
     tech: ["javascript", "react", "nodejs", "redux"],
   },
   {
@@ -113,7 +121,7 @@ export const PROJECTS = [
     imageKey: "expensemerge",
     description: "Manage your expenses easily 💸",
     gradient: ["#F4D03F", "#58D68D"], // warm gold to fresh green
-    url: "https://github.com/pranavmehta95/expense-react-client",
+    url: "https://github.com/pranavmehta95",
     tech: ["typescript", "react"],
   },
   {
@@ -121,7 +129,7 @@ export const PROJECTS = [
     imageKey: "round1",
     description: "Ace your round one in 9 minutes  💼",
     gradient: ["#5D4037", "#8D6E63"], // dark brown to medium brown
-    url: "https://play.google.com/store/apps/details?id=com.app.gvine",
+    url: "https://github.com/pranavmehta95",
     tech: ["typescript", "react", "react-query"],
   },
   {
@@ -129,7 +137,7 @@ export const PROJECTS = [
     imageKey: "react-native-directory",
     description: "Search & filter React Native libraries via Raycast ⌨️",
     gradient: ["#000000", "#1A1A1A"], // pure black to dark gray
-    url: "https://www.raycast.com/shubh_porwal/react-native-directory",
+    url: "https://github.com/pranavmehta95",
     tech: ["typescript", "react", "expo", "raycast"],
   },
 ];
@@ -138,18 +146,6 @@ export const CERTIFICATES = [
   {
     name: "Cloud Computing | NPTEL",
     url: "https://drive.google.com/file/d/1wx3C9bseDe8yG5nyTm03gCZxbWfY5FQg/view?usp=sharing"
-  },
-  {
-    name: "Object Oriented Programming | NeoColab",
-    url: "https://drive.google.com/file/d/1PH7LKEHUCtRE5vO3pBbjoahgOuAoDvOa/view"
-  },
-  {
-    name: "Operating System and Hardware | Coursera",
-    url: "https://drive.google.com/file/d/1BF6LMmX3ZwlHRna5djZyz2FYVMEqvHjA/view"
-  },
-  {
-    name: "Completed “C++ Data Structures & Algorithms” | PW- Skills",
-    url: "https://drive.google.com/file/d/1Lh4Nu6wAPfHvq-5EIRAIphZeCC7SZQn8/view"
   }
 ];
 
@@ -190,7 +186,7 @@ export const TRAINING_CONTENTS = {
   CSE_PATHSHALA: [
     {
       title: "Full-Stack Development",
-      description: "Developed a full-stack interactive web application using the MERN stack (MongoDB, Express.js, React.js, Node.js) as a capstone project. Focused on creating an intuitive, high-performance user interface and robust backend services to deliver a complete product experience from end to end.",
+      description: "Completed an intensive Java Bootcamp (LeetCode–Codeforces Edition) focused on problem-solving and full-stack development fundamentals. Gained hands-on experience in building scalable applications and strengthening core programming concepts with a performance-driven approach.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4 text-center">
           Building end-to-end scalable web applications
@@ -198,8 +194,8 @@ export const TRAINING_CONTENTS = {
       ),
     },
     {
-      title: "Architecture & APIs",
-      description: "Built and consumed RESTful APIs with strong frontend state management (using Redux) and seamless MongoDB integration for persistent data storage. Strengthened understanding of modern web architecture, Git-based version control for collaborative development, and deployment workflows.",
+      title: "Architecture & Problem Solving",
+      description: "Developed strong expertise in data structures, algorithms, and backend logic through competitive coding platforms like LeetCode and Codeforces. Enhanced understanding of efficient system design, optimization techniques, and real-world problem-solving strategies.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4 text-center">
           Modern Web Architecture & Seamless API Integration
@@ -207,19 +203,25 @@ export const TRAINING_CONTENTS = {
       ),
     },
     {
-      title: "Capstone Completion",
-      description: "Successfully defended and deployed the capstone application, demonstrating proficiency in modern web development practices, database schemas, and stateful UIs.",
+      title: "Technical Skills & Implementation",
+      description: "Worked with modern development practices including structured coding, debugging, and performance optimization. Strengthened knowledge of backend workflows, API handling concepts, and logical thinking required for building robust applications.",
       content: (
         <a
-          href="https://drive.google.com/file/d/1fIjzzxvRcMswFYECuYjDc9kWmMxdfN1c/view"
+          href="https://files.lpu.in/umsweb/skilldevcourse/SkillDevelopmentCertificates/12313134_898_20_08_2025.pdf?_gl=1*1thgs8q*_gcl_au*MTExMTQ2Nzg4Mi4xNzczNTcyMjc0"
           target="_blank"
           rel="noreferrer"
-          className="h-full w-full flex flex-col items-center justify-center text-white px-4 hover:scale-105 transition-transform duration-300"
+          className="h-full w-full flex flex-col items-center justify-center text-white px-4 hover:scale-105 transition-transform duration-300 group"
         >
-          <span className="text-xl mb-4 font-semibold text-center text-indigo-400">View Certificate</span>
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-gray-400 group-hover:text-indigo-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-          </svg>
+          <div className="relative w-full h-full flex flex-col items-center justify-center">
+            <img 
+              src="/certificate.png" 
+              alt="Placement Ace Certificate" 
+              className="w-full h-auto max-h-48 object-contain rounded-lg shadow-2xl border border-white/10 group-hover:border-indigo-500/50 transition-all shadow-indigo-500/20"
+            />
+            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center rounded-lg">
+               <span className="text-white font-medium">View Full Certificate</span>
+            </div>
+          </div>
         </a>
       ),
     }

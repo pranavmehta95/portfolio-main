@@ -137,6 +137,21 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          <div className="mt-10 staggered-reveal">
+            <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4">
+              SOFT SKILLS
+            </h3>
+            <div className="flex flex-wrap gap-3">
+              {SKILLS.softSkills.map((skill) => (
+                <span
+                  key={skill}
+                  className="px-4 py-2 rounded-full border border-purple text-gray-light-2 font-mono text-sm hover:bg-purple hover:text-white transition-all duration-300 cursor-default"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
