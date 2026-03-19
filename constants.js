@@ -15,7 +15,7 @@ export const METADATA = {
     "Folio",
   ].join(", "),
   image:
-    "https://avatars.githubusercontent.com/u/145219665?v=4",
+    "/profile.png",
   language: "English",
   themeColor: "#000000",
 };
@@ -109,36 +109,28 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
-    name: "CourseHub",
-    imageKey: "coursehub",
-    description: "Get hired through DMs not resumes 🤝",
-    gradient: ["#FF69B4", "#FFB6C1"], // hot pink to light pink (cherry blossom inspired)
-    url: "https://github.com/pranavmehta95",
-    tech: ["javascript", "react", "nodejs", "redux"],
+    name: "StudyAI",
+    imageKey: "studyai",
+    description: "AI Smart Study Companion is a full‑stack web app that turns your study materials into interactive, AI‑powered learning experiences. Users can upload PDFs, and the system uses Google Gemini to generate concise summaries, structured notes, quizzes (MCQ + open‑ended with AI feedback), viva-style question sessions, flashcards, and semantic search over the content. The frontend is built with React + Vite, while the backend uses Node.js, Express, MongoDB, JWT auth, and pdf‑parse for text extraction, providing a cohesive platform for personalized, data‑driven studying.",
+    gradient: ["#1e1b4b", "#0f172a"], // dark purple to slate
+    url: "https://ai-smart-study-companion.vercel.app/",
+    tech: ["react", "nodejs", "mongodb", "javascript"],
   },
   {
-    name: "Expense Merge",
-    imageKey: "expensemerge",
-    description: "Manage your expenses easily 💸",
-    gradient: ["#F4D03F", "#58D68D"], // warm gold to fresh green
-    url: "https://github.com/pranavmehta95",
-    tech: ["typescript", "react"],
+    name: "QRify",
+    imageKey: "qrify",
+    description: "QRify is a full‑stack URL shortening and dynamic QR code generator that lets users create, manage, and track QR codes with authentication, dashboards, and redirect handling for expired or inactive links.",
+    gradient: ["#2563eb", "#1e40af"],
+    url: "https://qrify-f5lv.onrender.com/",
+    tech: ["react", "nodejs", "mongodb", "javascript"],
   },
   {
-    name: "Grapevine Round1 AI",
-    imageKey: "round1",
-    description: "Ace your round one in 9 minutes  💼",
-    gradient: ["#5D4037", "#8D6E63"], // dark brown to medium brown
-    url: "https://github.com/pranavmehta95",
-    tech: ["typescript", "react", "react-query"],
-  },
-  {
-    name: "React Native Directory",
-    imageKey: "react-native-directory",
-    description: "Search & filter React Native libraries via Raycast ⌨️",
-    gradient: ["#000000", "#1A1A1A"], // pure black to dark gray
-    url: "https://github.com/pranavmehta95",
-    tech: ["typescript", "react", "expo", "raycast"],
+    name: "Personal Expense Tracker",
+    imageKey: "petv",
+    description: "Developed a Java desktop application, Personal Expense Tracker, that allows users to log daily expenses, store them in a local data file, and review their spending history through a simple, menu-driven interface. This project demonstrates object-oriented design, file handling in Java, and building a basic CLI-based financial utility.",
+    gradient: ["#4b5563", "#1f2937"], // dark gray colors
+    url: "https://github.com/pranavmehta95/PETV-project",
+    tech: [],
   },
 ];
 

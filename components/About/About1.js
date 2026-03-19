@@ -74,19 +74,19 @@ const About1 = ({ clientHeight }) => {
         {/* Right Side: Profile Picture */}
         <div className="md:w-1/2 flex items-center justify-center">
           <div
-            className="relative rounded-xl overflow-hidden"
+            className="relative rounded-full overflow-hidden"
             style={{
               width: "280px",
-              height: "340px",
+              height: "280px",
               boxShadow: "0 0 30px rgba(99, 102, 241, 0.5), 0 0 60px rgba(99, 102, 241, 0.2)",
               border: "3px solid rgba(99, 102, 241, 0.6)",
             }}
           >
             <img
-              src="https://avatars.githubusercontent.com/u/145219665?v=4"
+              src="/profile.png"
               alt="About Me"
               className="w-full h-full object-cover"
-              style={{ transform: "scale(1.1)" }}
+              style={{ transform: "scale(1.0)" }}
               loading="lazy"
             />
           </div>
