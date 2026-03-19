@@ -137,8 +137,12 @@ export const PROJECTS = [
 export const CERTIFICATES = [
   {
     name: "Cloud Computing | NPTEL",
-    url: "https://drive.google.com/file/d/1wx3C9bseDe8yG5nyTm03gCZxbWfY5FQg/view?usp=sharing"
-  }
+    url: "https://drive.google.com/file/d/1wx3C9bseDe8yG5nyTm03gCZxbWfY5FQg/view?usp=sharing",
+  },
+  {
+    name: "FreecodeCamp",
+    url: "https://drive.google.com/file/d/1V81GJWa5UYdGNuPQFPsFHfNMBJ4u-DT3/view?usp=sharing",
+  },
 ];
 
 export const EDUCATION_METADATA = [
